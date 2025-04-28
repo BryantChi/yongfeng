@@ -60,7 +60,7 @@
                             </div>
                             @if ($konwledges->isEmpty())
                             <div class="col-12 konwledge-list-item mb-4 d-flex justify-content-center">
-                                <div class="row hp-konwledge-box align-items-center p-2 w-100">
+                                <div class="row hp-konwledge-box bg-white align-items-center p-2 w-100">
                                     <div class="col-lg-auto p-0 pe-lg-2 mb-lg-0 mb-3 text-center">
                                         <a href="{{ route('konwledge-details-mock') }}">
                                             <img src="{{asset('assets/images/00-hp/know_pic.jpg')}}" class="img-fluid hp-konwledge-img"
@@ -95,7 +95,7 @@
 
                             @foreach ($konwledges ?? [] as $konwledge)
                             <div class="col-12 konwledge-list-item mb-4 d-flex justify-content-center">
-                                <div class="row hp-konwledge-box align-items-center p-2 w-100">
+                                <div class="row hp-konwledge-box bg-white align-items-center p-2 w-100">
                                     <div class="col-lg-auto p-0 pe-2 mb-lg-0 mb-3">
                                         <a href="{{ route('konwledge-details', ['id' => $konwledge->id, 'classification_id' => request('classification_id')]) }}">
                                             <img src="{{ asset('assets/images/00-hp/know_pic.jpg') }}"

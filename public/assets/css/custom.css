@@ -328,14 +328,18 @@ p {
     width: 90%;
 }
 
+.site-navbar {
+    border-top: 2px solid #e8bb07;
+}
+
 .bg-slogan {
     background: linear-gradient(to right, #f4f4f4 0%, #f4f4f4 100%);
 }
 
 .hp-s1-section {
     box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.2);
-    background: url(../images/00-hp/ser_bg1024.jpg) no-repeat center center;
-    background-size: cover;
+    background: url(../images/00-hp/ser_bg1024.jpg) repeat center center;
+    background-size: auto;
 }
 
 @media (max-width: 768px) {
@@ -343,36 +347,36 @@ p {
         background-color: #f4f0ef;
         background-image: url(../images/00-hp/ser_bg750.jpg);
         background-position: center top;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-repeat: repeat;
+        background-size: auto;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .hp-s1-section {
-        background: url(../images/00-hp/ser_bg1024.jpg) no-repeat center center;
-        background-size: cover;
+        background: url(../images/00-hp/ser_bg1024.jpg) repeat center center;
+        background-size: auto;
     }
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
     .hp-s1-section {
-        background: url(../images/00-hp/ser_bg1280.jpg) no-repeat center center;
-        background-size: cover;
+        background: url(../images/00-hp/ser_bg1280.jpg) repeat center center;
+        background-size: auto;
     }
 }
 
 @media (min-width: 1280px) and (max-width: 1440px) {
     .hp-s1-section {
-        background: url(../images/00-hp/ser_bg1440.jpg) no-repeat center center;
-        background-size: cover;
+        background: url(../images/00-hp/ser_bg1440.jpg) repeat center center;
+        background-size: auto;
     }
 }
 
 @media (min-width: 1440px) {
     .hp-s1-section {
-        background: url(../images/00-hp/ser_bg1920.jpg) no-repeat center center;
-        background-size: cover;
+        background: url(../images/00-hp/ser_bg1920.jpg) repeat center center;
+        background-size: auto;
     }
 }
 
@@ -392,6 +396,10 @@ p {
     background-size: cover;
 }
 
+.hp-about-empty {
+    height: 0 !important;
+}
+
 @media (max-width: 768px) {
     .hp-about-section {
         background-color: #282a2d;
@@ -399,6 +407,9 @@ p {
         background-position: center bottom;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    .hp-about-empty {
+        height: 40vw !important;
     }
 }
 
@@ -475,6 +486,7 @@ p {
     background: linear-gradient(to top, #f7f4eb, #ffffff) padding-box,
         /* 內部背景 */ linear-gradient(35deg, #e5c058, #f4d194) border-box; /* 邊框漸層 */
     background-clip: padding-box, border-box;
+    box-shadow: 2px 2px 8px rgba(14, 5, 10, 0.19);
 }
 
 .box-outline-main {
@@ -822,7 +834,7 @@ th {
 }
 
 .footer-logo {
-    width: 12rem;
+    /* width: 12rem; */
 }
 
 .text-fef7f0 {
@@ -1058,7 +1070,7 @@ th {
 
 .process-box2 {
     border: 2px solid transparent;
-    background: linear-gradient(72deg, #f7f4eb, #fdf7ef) padding-box,
+    background: linear-gradient(72deg, #fef7f0, #fef7f0) padding-box,
         /* 內部背景 */ linear-gradient(35deg, #b77f20, #d7bb94) border-box; /* 邊框漸層 */
     background-clip: padding-box, border-box;
 }
@@ -1076,8 +1088,10 @@ th {
 
 .bg-sub-process {
     margin-top: 5rem;
-    background: url(../images/03/03ban_bg1024.jpg) no-repeat center center;
-    background-size: cover;
+    background-color: #f5f1e8 !important;
+    background: url(../images/03/03ban_bg1024.jpg) no-repeat right;
+    background-size: auto 100%;
+
 }
 
 @media (max-width: 768px) {
@@ -1092,22 +1106,29 @@ th {
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .bg-sub-process {
-        background: url(../images/03/03ban_bg1024.jpg) no-repeat center center;
-        background-size: cover;
+        background: url(../images/03/03ban_bg1024.jpg) no-repeat right;
+        background-size: auto 100%;
     }
 }
 
 @media (min-width: 1024px) and (max-width: 1280px) {
     .bg-sub-process {
-        background: url(../images/03/03ban_bg1280.jpg) no-repeat center center;
-        background-size: cover;
+        background: url(../images/03/03ban_bg1280.jpg) no-repeat right;
+        background-size: auto 100%;
     }
 }
 
 @media (min-width: 1280px) and (max-width: 1440px) {
     .bg-sub-process {
-        background: url(../images/03/03ban_bg1440.jpg) no-repeat center center;
-        background-size: cover;
+        background: url(../images/03/03ban_bg1440.jpg) no-repeat right;
+        background-size: auto 100%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .bg-sub-process {
+        background: url(../images/03/03ban_bg1768.jpg) no-repeat right;
+        background-size: auto 100%;
     }
 }
 
@@ -1277,5 +1298,18 @@ th {
     height: 35vw;
 }
 .line-height {
-    line-height: 1.7rem;
+    line-height: 1.7rem !important;
+}
+.line-height-higher {
+    line-height: 2.3rem !important;
+}
+.steps-item {
+}
+.map {
+    width: 100%;
+    height: 17.5rem;
+}
+.map iframe {
+    width: 100%;
+    height: 18rem;
 }

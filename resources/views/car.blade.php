@@ -19,7 +19,7 @@
                             <img src="{{asset('assets/images/02/ser_icon02.png')}}" class="img-fluid" alt="">
                         </div>
                         <img src="{{asset('assets/images/02/pointline.svg')}}" class="img-fluid d-md-block d-none" alt="">
-                        <p class="text-363636 ms-3 mb-0">
+                        <p class="text-363636 ms-3 mb-0 line-height">
                             不限車種與車齡，即使有貸款或信用瑕疵也能申辦！<br>
                             免留車，原車可正常使用，手續簡單、審核快速，最快15分鐘撥款！<br>
                             借款流程公開透明，新竹永豐當鋪為您爭取最高貸款額度，助您輕鬆獲得所需資金！

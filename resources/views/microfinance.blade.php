@@ -19,7 +19,7 @@
                             <img src="{{asset('assets/images/02/ser_icon05.png')}}" class="img-fluid" alt="">
                         </div>
                         <img src="{{asset('assets/images/02/pointline.svg')}}" class="img-fluid d-md-block d-none" alt="">
-                        <p class="text-363636 ms-3 mb-0">
+                        <p class="text-363636 ms-3 mb-0 line-height">
                             當信用卡循環利息、貸款分期壓力逐漸增加，是否感到還款吃力、資金周轉困難？<br>
                             新竹永豐當鋪幫您整合所有債務，不再被卡債、車貸及多家銀行信貸追著跑！降低利息負擔，輕鬆整合還款！<br>
                             減輕還款壓力，讓財務管理更輕鬆！現在就聯繫新竹永豐當鋪，讓我們幫助您制定最合適的債務整合方案！

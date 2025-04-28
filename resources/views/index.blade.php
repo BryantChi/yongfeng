@@ -9,14 +9,14 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="row g-lg-5 g-3 justify-content-center align-items-center">
-                    <div class="col-12 text-center mb-lg-4 mb-0">
+                    <div class="col-12 text-center mb-lg-4 mb-0 wow fadeIn" data-wow-delay="0.5s">
                         <h3 class="text-262626">永豐專業多元的借款服務</h3>
                         <p class="text-de5511">新竹永豐當舖就是您的即時救援站，讓您快速取得現金，不影響信用、不查聯徵！</p>
                     </div>
 
                     <div class="col-lg-8">
                         <div class="row justify-content-center align-items-center">
-                            <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="col-lg-4 col-md-6 mb-3 wow fadeIn" data-wow-delay="0.5s">
                                 <a href="{{route('locomotive')}}">
 
                                     <div class="hp-services-box text-center">
@@ -32,7 +32,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="col-lg-4 col-md-6 mb-3 wow fadeIn" data-wow-delay="0.5s">
                                 <a href="{{route('car')}}">
 
                                     <div class="hp-services-box text-center">
@@ -48,7 +48,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="col-lg-4 col-md-6 mb-3 wow fadeIn" data-wow-delay="0.5s">
                                 <a href="{{route('gold')}}">
 
                                     <div class="hp-services-box text-center">
@@ -64,7 +64,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="col-lg-4 col-md-6 mb-3 wow fadeIn" data-wow-delay="0.5s">
                                 <a href="{{route('3c-loan')}}">
 
                                     <div class="hp-services-box text-center">
@@ -80,7 +80,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="col-lg-4 col-md-6 mb-3 wow fadeIn" data-wow-delay="0.5s">
                                 <a href="{{ route('microfinance') }}">
 
                                     <div class="hp-services-box text-center">
@@ -96,7 +96,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="col-lg-4 col-md-6 mb-3 wow fadeIn" data-wow-delay="0.5s">
                                 <a href="{{ route('bontique') }}">
 
                                     <div class="hp-services-box text-center">
@@ -130,14 +130,14 @@
                         <p class="fs-5 fw-medium fst-italic text-primary">About Us</p>
                         <h1 class="display-6">The success history of TEA House in 25 years</h1>
                     </div> -->
-                    <h4 class="text-262626 mb-4">新竹永豐當鋪合法立案、擁有透明合理的利率制度<br class="d-none d-lg-block">保密性高，讓您能夠安心借貸
+                    <h4 class="text-262626 mb-4 line-height-higher">新竹永豐當鋪合法立案、擁有透明合理的利率制度<br class="d-none d-lg-block">保密性高，讓您能夠安心借貸
                     </h4>
-                    <p class="text-363636 fw-normal mb-4">
+                    <p class="text-363636 fw-normal mb-4 line-height">
                         無論是個人或企業資金需求，永豐當舖都能為你量身訂製彈性還款計畫，解決您的資金難題。<br>
                         選擇新竹永豐優質當舖，就是選擇安全與信賴。<br>
                         讓資金週轉更順利，財務規劃更無憂！
                     </p>
-                    <div class="d-md-flex align-items-center">
+                    <div class="d-md-flex align-items-center wow fadeIn" data-wow-delay="0.5s">
                         <a href="{{route('about')}}">
                             <div class="box-outline-main d-flex justify-content-between align-items-center wm-content">
                                 <span class="me-1">公司簡介</span>
@@ -150,6 +150,7 @@
                         </a>
                     </div>
                 </div>
+                <div class="col-12 hp-about-empty d-lg-none"></div>
             </div>
         </div>
     </div>
@@ -160,13 +161,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h4 class="text-262626 text-center mb-5">
+                    <h4 class="text-262626 text-center mb-5 wow fadeIn" data-wow-delay="0.5s">
                         <img src="{{asset('assets/images/00-hp/adv_crown.png')}}" class="img-fluid" alt="">
                         借款就選新竹永豐當舖，優勢多多週轉更輕鬆！
                     </h4>
 
                     <div class="table-responsive">
-                        <table class="table table-bordered text-center text-nowap">
+                        <table class="table table-bordered text-center text-nowap wow fadeIn" data-wow-delay="0.5s">
                             <thead class="bg-white">
                                 <tr>
                                     <th scope="col"></th>
@@ -231,7 +232,7 @@
         <div class="container">
 
             <div class="row g-5">
-                <div class="col-12 text-center">
+                <div class="col-12 text-center wow fadeIn" data-wow-delay="0.5s">
                     <h4><span class="text-de5511 fw-normal me-1">Cases</span>借款成功案例</h4>
                     <p class="text-363636">在資金需求緊迫的時刻，新竹永豐當鋪成為許多客戶的最佳選擇</p>
                 </div>
@@ -239,7 +240,7 @@
 
             <div class="row g-5">
                 <div class="col-lg-6">
-                    <div class="case-box">
+                    <div class="case-box wow fadeIn" data-wow-delay="0.5s">
                         <div class="case-header text-center mb-4">
                             <p class="text-363636 fw-normal case-industry mb-2">美髮業 張先生</p>
                             <h5 class="text-262626 case-title">成功貸款<span class="text-de5511">30</span>萬</h5>
@@ -258,7 +259,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="case-box">
+                    <div class="case-box wow fadeIn" data-wow-delay="0.5s">
                         <div class="case-header text-center mb-4">
                             <p class="text-363636 fw-normal case-industry mb-2">汽車業 馬先生</p>
                             <h5 class="text-262626 case-title">成功貸款<span class="text-de5511">7</span>萬</h5>
@@ -278,7 +279,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 d-flex justify-content-center mt-4">
+                <div class="col-12 d-flex justify-content-center mt-4 wow fadeIn" data-wow-delay="0.5s">
                     <a href="{{route('cases')}}">
                         <div class="box-outline-main d-flex justify-content-between align-items-center wm-content">
                             <span class="me-1">更多案例</span>
@@ -296,8 +297,8 @@
             <div class="row g-0">
                 <div class="col-lg-7">
                     <div class="sub-section hp-konwledge">
-                        <div class="d-md-flex align-items-center mb-4">
-                            <h5 class="text-262626 me-2 mb-0 letter-spacing"><span
+                        <div class="d-md-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.5s">
+                            <h5 class="text-262626 me-2 mb-md-0 mb-3 letter-spacing"><span
                                     class="text-de5511 fw-normal">Konwledge</span>當鋪知識分享</h5>
                             <a href="{{route('konwledge')}}">
                                 <div class="box-outline-main d-flex justify-content-between align-items-center wm-content">
@@ -306,7 +307,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="row hp-konwledge-box bg-white align-items-center p-2">
+                        <div class="row hp-konwledge-box bg-white align-items-center p-2 wow fadeIn" data-wow-delay="0.5s">
                             <div class="col-lg-5 p-0 pe-2 mb-lg-0 mb-3">
                                 <img src="{{asset('assets/images/00-hp/know_pic.jpg')}}" class="img-fluid hp-konwledge-img"
                                     alt="">
@@ -333,8 +334,8 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="sub-section hp-faq">
-                        <div class="d-md-flex align-items-center mb-4">
-                            <h5 class="text-262626 me-2 mb-0 letter-spacing"><span
+                        <div class="d-md-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.5s">
+                            <h5 class="text-262626 me-2 mb-md-0 mb-3 letter-spacing"><span
                                     class="text-de5511 fw-normal">Faq</span>常見問題</h5>
                             <a href="{{route('faq')}}">
                                 <div class="box-outline-main d-flex justify-content-between align-items-center wm-content">
@@ -344,7 +345,7 @@
                             </a>
                         </div>
 
-                        <div class="hp-faq-box bg-white align-items-center p-2 mb-2 h-100">
+                        <div class="hp-faq-box bg-white align-items-center p-2 mb-2 h-100 wow fadeIn" data-wow-delay="0.5s">
                             <div class="hp-faq-item">
                                 <h6 class="text-de5511 hp-faq-title bg-fef7f0 px-2 py-1">Q1.當鋪借款需要準備什麼文件？</h6>
                                 <p class="text-363636 fw-normal text-justify text-indent-0 hp-faq-text px-2 mb-0">
@@ -354,7 +355,7 @@
                             </div>
                         </div>
 
-                        <div class="hp-faq-box bg-white align-items-center p-2 h-100">
+                        <div class="hp-faq-box bg-white align-items-center p-2 h-100 wow fadeIn" data-wow-delay="0.5s">
                             <div class="hp-faq-item">
                                 <h6 class="text-de5511 hp-faq-title bg-fef7f0 px-2 py-1">Q2.典當借款的利息如何計算？</h6>
                                 <p class="text-363636 fw-normal text-justify text-indent-0 hp-faq-text px-2 mb-0">
@@ -369,12 +370,16 @@
         </div>
     </div>
 
-
+    <div class="container-fluid px-0 mx-0">
+        <div class="map wow fadeIn" data-wow-delay="0.5s">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.4795322706527!2d121.0183297!3d24.8474666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346837e200fac1fb%3A0xd00aa6d3ff3dc076!2z5rC46LGQ55W26IiWL-aWsOerueeVtumLquaOqOiWpi_mlrDnq7nmqZ_ou4rlgJ_mrL4v5paw56u55rG96LuK5YCf5qy-L-aWsOeruem7g-mHkeWFuOeVti_nq7nljJfnlbbpi6ov56u55YyX5omL5qmf5YCf5qy-L-erueWMl-apn-i7iuWAn-asvi_mlrDnq7nlhY3nlZnou4rlgJ_mrL4!5e0!3m2!1szh-TW!2stw!4v1745817079810!5m2!1szh-TW!2stw" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
 
     <div class="container-fluid py-5 hp-att-section">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-8 justify-content-center align-items-center wow fadeIn" data-wow-delay="0.5s">
                     <div class="d-lg-flex justify-content-center align-items-center text-center">
                         <img src="{{asset('assets/images/00-hp/att_icon.png')}}" class="img-fluid" alt="">
                         <div class="att-content d-flex flex-column">
@@ -385,6 +390,10 @@
                             </p>
                         </div>
                     </div>
+                </div>
+
+                <div class="col-lg-4 justify-content-center align-items-center wow fadeIn" data-wow-delay="0.5s">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F61573949573113%2F&tabs=timeline&width=340&height=170&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId" width="340" height="170" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                 </div>
             </div>
         </div>

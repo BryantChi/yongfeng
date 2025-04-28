@@ -19,8 +19,8 @@
                             <img src="{{asset('assets/images/02/ser_icon03.png')}}" class="img-fluid" alt="">
                         </div>
                         <img src="{{asset('assets/images/02/pointline.svg')}}" class="img-fluid d-md-block d-none" alt="">
-                        <p class="text-363636 ms-3 mb-0">
-                            不永豐專業鑑價師免費為您評估，黃金借款享超低利率，讓您的資金週轉更靈活、更便利！<br>
+                        <p class="text-363636 ms-3 mb-0 line-height">
+                            永豐專業鑑價師免費為您評估，黃金借款享超低利率，讓您的資金週轉更靈活、更便利！<br>
                             新竹永豐當鋪擁有五星級安全倉儲，比銀行更安心，免保人、保密機制完善，借還彈性自由！<br>
                             無違約金、無手續費，還可根據您的質押物規劃專屬貸款額度，有動用才計息，讓您借得靈活、還得輕鬆！
                         </p>

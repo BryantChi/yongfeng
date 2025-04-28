@@ -124,8 +124,8 @@
                     <div class="col-12 d-flex justify-content-center mt-4 mb-5">
                         <a href="{{ route('konwledge') }}">
                             <div class="box-outline-main d-flex justify-content-between align-items-center w-fit">
-                                <span class="me-1">返回列表</span>
-                                <span class="ms-1">〉</span>
+                                <span class="me-1">〈</span>
+                                <span class="ms-1">返回列表</span>
                             </div>
                         </a>
                     </div>

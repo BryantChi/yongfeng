@@ -2,7 +2,7 @@
     <img src="assets/images/00-hp/yellowbg.svg" class="img-fluid yellowbg" alt="">
     <div class="container position-relative sub-hero-content">
         <div
-            class="row justify-content-center align-items-center rounded ad-header p-3 mx-md-0 mx-3">
+            class="row justify-content-center align-items-center rounded ad-header p-3 mx-md-0 mx-3  wow fadeIn" data-wow-delay="0.5s">
             <div class="col ad-border-right-bottom text-center">
                 <img src="assets/images/00-hp/top_icon01.png" class="img-fluid" alt="">
                 <h6 class="text-262626">誠信專業</h6>

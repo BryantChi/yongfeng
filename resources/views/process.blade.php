@@ -90,14 +90,14 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-11 bg-sub-process w-m-fit mx-lg-0 mx-3">
+                    <div class="col-lg-11 bg-sub-process w-m-fit mx-lg-0 mx-3 py-md-5">
                         <div class="row px-lg-0 px-3 py-5 offset-lg-1">
-                            <div class="col-lg">
-                                <h4 class="text-262626 mb-4">
+                            <div class="col-lg py-lg-2">
+                                <h4 class="text-262626 mb-4 line-height-higher">
                                     當您有資金需求時，選擇一間合法、安全、值得信賴的當舖至關重要！<br>
                                     新竹永豐當舖提供專業借貸服務，讓您借得安心、還得輕鬆！
                                 </h4>
-                                <p class="text-363636 fw-normal mb-3">
+                                <p class="text-363636 fw-normal mb-3 line-height">
                                     ✓ 審核快速，當日放款，不拖延您的資金調度<br>
 
                                     ✓ 手續簡便，不查聯徵、不影響信用<br>

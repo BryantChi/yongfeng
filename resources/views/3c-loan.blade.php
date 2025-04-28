@@ -19,7 +19,7 @@
                             <img src="{{asset('assets/images/02/ser_icon04.png')}}" class="img-fluid" alt="">
                         </div>
                         <img src="{{asset('assets/images/02/pointline.svg')}}" class="img-fluid d-md-block d-none" alt="">
-                        <p class="text-363636 ms-3 mb-0">
+                        <p class="text-363636 ms-3 mb-0 line-height">
                             手邊有手機、筆電、平板、相機、遊戲機等3C產品？現在就能輕鬆變現！<br>
                             新竹永豐當鋪提供手機3C典當借款，不限品牌、型號，新舊皆可估價，讓您輕鬆獲得週轉資金！
                         </p>

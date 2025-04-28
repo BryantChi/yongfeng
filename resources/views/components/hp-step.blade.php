@@ -3,7 +3,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
                 <h4 class="text-262626 text-center mb-3">
                     簡單<span class="text-dd643a" style="font-size: xx-large;">4</span>步驟，輕鬆快速借
                 </h4>
@@ -15,7 +15,7 @@
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-auto mb-4">
+            <div class="col-auto mb-4 wow fadeIn" data-wow-delay="0.5s">
                 <div class="steps-item text-center">
                     <p class="text-light">Step01</p>
                     <div class="step-cbox bg-light">
@@ -31,7 +31,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-auto mb-4">
+            <div class="col-auto d-lg-flex d-none align-items-center wow fadeIn" data-wow-delay="0.5s">
+                <img src="{{asset('assets/images/00-hp/steps_arrow.png')}}" class="img-fluid" alt="">
+            </div>
+            <div class="col-auto mb-4 wow fadeIn" data-wow-delay="0.5s">
                 <div class="steps-item text-center">
                     <p class="text-light">Step02</p>
                     <div class="step-cbox bg-light">
@@ -47,7 +50,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-auto mb-4">
+            <div class="col-auto d-lg-flex d-none align-items-center wow fadeIn" data-wow-delay="0.5s">
+                <img src="{{asset('assets/images/00-hp/steps_arrow.png')}}" class="img-fluid" alt="">
+            </div>
+            <div class="col-auto mb-4 wow fadeIn" data-wow-delay="0.5s">
                 <div class="steps-item text-center">
                     <p class="text-light">Step03</p>
                     <div class="step-cbox bg-light">
@@ -63,7 +69,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-auto mb-4">
+            <div class="col-auto d-lg-flex d-none align-items-center wow fadeIn" data-wow-delay="0.5s">
+                <img src="{{asset('assets/images/00-hp/steps_arrow.png')}}" class="img-fluid" alt="">
+            </div>
+            <div class="col-auto mb-4 wow fadeIn" data-wow-delay="0.5s">
                 <div class="steps-item text-center">
                     <p class="text-light">Step04</p>
                     <div class="step-cbox bg-light">
@@ -80,7 +89,7 @@
                 </div>
             </div>
 
-            <div class="col-12 d-flex justify-content-center mt-4">
+            <div class="col-12 d-flex justify-content-center mt-4 wow fadeIn" data-wow-delay="0.5s">
                 <a href="{{ route('process') }}">
                     <div class="box-outline-main d-flex justify-content-between align-items-center wm-content">
                         <span class="me-1">快速借款流程</span>

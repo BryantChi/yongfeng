@@ -19,7 +19,7 @@
                             <img src="{{asset('assets/images/02/ser_icon06.png')}}" class="img-fluid" alt="">
                         </div>
                         <img src="{{asset('assets/images/02/pointline.svg')}}" class="img-fluid d-md-block d-none" alt="">
-                        <p class="text-363636 ms-3 mb-0">
+                        <p class="text-363636 ms-3 mb-0 line-height">
                             不限品牌、不限款式，讓您的精品輕鬆變現，永豐優質當鋪擁有專業鑑價師，讓您的精品獲得公正評估與高額放款，<br>
                             並設有高規格倉儲保管，確保您的精品安全無憂，無論何時皆可靈活贖回，不影響您的珍藏價值，借得更安心。<br>
                             借款流程簡單透明，審核迅速、當日即可放款，幫助您即時解決資金需求。

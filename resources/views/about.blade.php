@@ -71,7 +71,7 @@
 
         <div class="container py-lg-5 py-3">
             <div class="row justify-content-end">
-                <div class="col-lg-8 col-md-6">
+                <div class="col-lg-8 col-md-6 line-height">
                     <p class="text-363636">新竹永豐當鋪提供合法、安全、透明的借貸服務，無論是個人或企業資金需求，我們都能爲您量身打造最合適的借款方案。</p>
                     <p class="text-363636 fw-normal">
                         新竹永豐當鋪擁有專業鑑價團隊、公正合理的利率，並提供汽機車借款、黃金、精品包名錶質借、3C產品借款、小額信用債務整合等多元服務，讓您輕鬆解決資金需求，安心借款、無壓還款。<br>
@@ -92,29 +92,40 @@
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="row">
                         <div class="col ad-border-right-bottom text-center">
-                            <img src="assets/images/01/01icon1.png" class="img-fluid" alt="">
+                            <img src="{{asset('assets/images/01/01icon1.png')}}" class="img-fluid" alt="">
                             <h6 class="text-262626">專業團隊</h6>
                         </div>
                         <div class="col ad-border-right-bottom text-center">
-                            <img src="assets/images/01/01icon2.png" class="img-fluid" alt="">
+                            <img src="{{asset('assets/images/01/01icon2.png')}}" class="img-fluid" alt="">
                             <h6 class="text-262626">隱私保障</h6>
                         </div>
                         <div class="col ad-border-right-bottom2 text-center">
-                            <img src="assets/images/01/01icon3.png" class="img-fluid" alt="">
+                            <img src="{{asset('assets/images/01/01icon3.png')}}" class="img-fluid" alt="">
                             <h6 class="text-262626">方案靈活</h6>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-12 text-center justify-content-center">
+                <div class="col-lg-12 text-center justify-content-center line-height mb-4">
                     <h6 class="text-262626">不論是創業周轉，應急資金、臨時開銷，永豐當舖都能助您輕鬆取得現金，無需繁瑣手續，快速放款！</h6>
                     <p class="text-363636 fw-normal mt-3">
                         人生難免遇到資金短缺的時刻，新竹永豐當舖是您的最佳後盾；我們提供即時放款、高額借款、低利彈性還款，確保您能快速取得現金，不影響生活與信用。<br>
                         選擇新竹永豐當舖，就是選擇安心與信賴！如有任何借款需求，歡迎立即洽詢，我們將為您提供最合適的資金解決方案！
                     </p>
-                    <a href="javascript:void(0)">
-                        <img src="assets/images/01/ab_line.svg" class="img-fluid ab-line-img" alt="">
+                    <a href="https://line.me/ti/p/vrekUeTzac" target="_blank">
+                        <img src="{{asset('assets/images/01/ab_line.svg')}}" class="img-fluid ab-line-img" alt="">
                     </a>
+                </div>
+
+                <div class="col-12">
+                    <div class="row w-100 justify-content-center">
+                        <div class="col-lg-6">
+                            <img src="{{asset('assets/images/01/01pic5.jpg')}}" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="{{asset('assets/images/01/01pic6.jpg')}}" class="img-fluid" alt="">
+                        </div>
+                    </div>
                 </div>
 
             </div>
