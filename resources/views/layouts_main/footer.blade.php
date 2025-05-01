@@ -15,7 +15,7 @@
                     <p class="mb-02 text-white text-nowrap ms-lg-2"><span class="text-ffd2a5">LINE
                             ID：</span>vip035519000</p>
                 </div>
-                <p class="mb-02 text-white text-nowrap"><span class="text-ffd2a5">店面服務地址：</span>新竹縣竹北市環北路二段103號</p>
+                <p class="mb-02 text-white text-nowrap"><span class="text-ffd2a5">店面服務地址：</span><br class="d-md-none">新竹縣竹北市環北路二段103號</p>
                 {{-- <div class="d-lg-flex align-items-center">
                     <p class="mb-02 text-white text-nowrap me-lg-2"><span class="text-ffd2a5">本日人氣：</span>519</p>
                     <p class="mb-02 text-white text-nowrap ms-lg-2"><span class="text-ffd2a5">累計人氣：</span>30824</p>

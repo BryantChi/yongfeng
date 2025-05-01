@@ -379,7 +379,7 @@
     <div class="container-fluid py-5 hp-att-section">
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-lg-8 justify-content-center align-items-center wow fadeIn" data-wow-delay="0.5s">
+                <div class="col-lg-8 justify-content-center align-items-center mb-lg-0 mb-3 wow fadeIn" data-wow-delay="0.5s">
                     <div class="d-lg-flex justify-content-center align-items-center text-center">
                         <img src="{{asset('assets/images/00-hp/att_icon.png')}}" class="img-fluid" alt="">
                         <div class="att-content d-flex flex-column">
@@ -392,7 +392,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 justify-content-center align-items-center wow fadeIn" data-wow-delay="0.5s">
+                <div class="col-lg-4 justify-content-center align-items-center mb-lg-0 mb-3 wow fadeIn" data-wow-delay="0.5s">
                     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F61573949573113%2F&tabs=timeline&width=340&height=170&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId" width="340" height="170" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                 </div>
             </div>
