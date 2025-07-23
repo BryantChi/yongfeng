@@ -82,7 +82,7 @@
     </a>
 
 
-    <div class="d-none d-md-block social-links-btn">
+    <div class="d-none d-md-block social-links-btn wow slideInLeft" data-wow-delay="0.6s">
         <a href="https://line.me/ti/p/vrekUeTzac" target="_blank" class="d-none d-md-block"><img
                 src="{{asset('assets/images/00-hp/left_line.svg')}}" class="img-fluid left-line-img"
                 alt=""></a>

@@ -9,14 +9,14 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="row g-lg-5 g-3 justify-content-center align-items-center">
-                    <div class="col-12 text-center mb-lg-4 mb-0 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="col-12 text-center mb-lg-4 mb-0 wow fadeInUp" data-wow-delay="0.8s">
                         <h3 class="text-262626">永豐專業多元的借款服務</h3>
                         <p class="text-de5511">新竹永豐當舖就是您的即時救援站，讓您快速取得現金，不影響信用、不查聯徵！</p>
                     </div>
 
                     <div class="col-lg-8">
                         <div class="row justify-content-center align-items-center">
-                            <div class="col-lg-4 col-md-6 mb-3 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="col-lg-4 col-md-6 mb-3 wow fadeInUp" data-wow-delay="0.5s">
                                 <a href="{{route('locomotive')}}">
 
                                     <div class="hp-services-box text-center">
@@ -32,7 +32,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-6 mb-3 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="col-lg-4 col-md-6 mb-3 wow fadeInUp" data-wow-delay="0.6s">
                                 <a href="{{route('car')}}">
 
                                     <div class="hp-services-box text-center">
@@ -48,7 +48,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-6 mb-3 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="col-lg-4 col-md-6 mb-3 wow fadeInUp" data-wow-delay="0.7s">
                                 <a href="{{route('gold')}}">
 
                                     <div class="hp-services-box text-center">
@@ -64,7 +64,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-6 mb-3 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="col-lg-4 col-md-6 mb-3 wow fadeInUp" data-wow-delay="0.5s">
                                 <a href="{{route('3c-loan')}}">
 
                                     <div class="hp-services-box text-center">
@@ -80,7 +80,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-6 mb-3 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="col-lg-4 col-md-6 mb-3 wow fadeInUp" data-wow-delay="0.6s">
                                 <a href="{{ route('microfinance') }}">
 
                                     <div class="hp-services-box text-center">
@@ -96,7 +96,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-lg-4 col-md-6 mb-3 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="col-lg-4 col-md-6 mb-3 wow fadeInUp" data-wow-delay="0.7s">
                                 <a href="{{ route('bontique') }}">
 
                                     <div class="hp-services-box text-center">
@@ -161,21 +161,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h4 class="text-262626 text-center mb-5 wow fadeIn" data-wow-delay="0.5s">
+                    <h4 class="text-262626 text-center mb-5 wow fadeIn" data-wow-delay="0.7s">
                         <img src="{{asset('assets/images/00-hp/adv_crown.png')}}" class="img-fluid" alt="">
                         借款就選新竹永豐當舖，優勢多多週轉更輕鬆！
                     </h4>
 
                     <div class="table-responsive">
                         <table class="table table-bordered text-center text-nowap wow fadeIn" data-wow-delay="0.5s">
-                            <thead class="bg-white">
+                            <thead class="bg-white wow fadeInUp" data-wow-delay="0.7s">
                                 <tr>
                                     <th scope="col"></th>
                                     <th scope="col" class="text-dd643a">⭐新竹永豐當鋪借款</th>
                                     <th scope="col" class="text-be8b4f">銀行借款</th>
                                 </tr>
                             </thead>
-                            <tbody class="bg-be8b4f text-light">
+                            <tbody class="bg-be8b4f text-light wow fadeIn" data-wow-delay="0.7s">
                                 <tr>
                                     <td>審核速度</td>
                                     <td>手續簡便，快速審核，當天放款</td>
@@ -232,7 +232,7 @@
         <div class="container">
 
             <div class="row g-5">
-                <div class="col-12 text-center wow fadeIn" data-wow-delay="0.5s">
+                <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.7s">
                     <h4><span class="text-de5511 fw-normal me-1">Cases</span>借款成功案例</h4>
                     <p class="text-363636">在資金需求緊迫的時刻，新竹永豐當鋪成為許多客戶的最佳選擇</p>
                 </div>
@@ -241,13 +241,13 @@
             <div class="row g-5">
                 <div class="col-lg-6">
                     <div class="case-box wow fadeIn" data-wow-delay="0.5s">
-                        <div class="case-header text-center mb-4">
+                        <div class="case-header text-center mb-4 wow fadeInDown" data-wow-delay="0.8s">
                             <p class="text-363636 fw-normal case-industry mb-2">美髮業 張先生</p>
                             <h5 class="text-262626 case-title">成功貸款<span class="text-de5511">30</span>萬</h5>
                         </div>
                         <div class="case-content">
-                            <img src="{{asset('assets/images/00-hp/case_pic1.jpg')}}" class="img-fluid mb-3" alt="">
-                            <p class="text-363636 fw-normal">
+                            <img src="{{asset('assets/images/00-hp/case_pic1.jpg')}}" class="img-fluid mb-3 wow zoomIn" data-wow-delay="0.8s" alt="">
+                            <p class="text-363636 fw-normal wow fadeInUp" data-wow-delay="0.8s">
                                 章先生在新竹經營兩家美髮沙龍，生意穩定。上個月因應活動需求，添購了大量設備並
                                 增加人力，使得本月資金週轉較為吃緊。此外，他與洗護商品供應商合作的鋪貨貨款約
                                 20多萬元即將到期，但由於資金需求僅短短一個月，向銀行貸款不僅手續繁瑣，利息
@@ -260,14 +260,14 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="case-box wow fadeIn" data-wow-delay="0.5s">
-                        <div class="case-header text-center mb-4">
+                        <div class="case-header text-center mb-4 wow fadeInDown" data-wow-delay="0.8s">
                             <p class="text-363636 fw-normal case-industry mb-2">汽車業 馬先生</p>
                             <h5 class="text-262626 case-title">成功貸款<span class="text-de5511">7</span>萬</h5>
                         </div>
                         <div class="case-content">
-                            <img src="{{asset('assets/images/00-hp/case_pic2.jpg')}}" class="img-fluid mb-3 case-content-img"
+                            <img src="{{asset('assets/images/00-hp/case_pic2.jpg')}}" class="img-fluid mb-3 case-content-img wow zoomIn" data-wow-delay="0.8s"
                                 alt="">
-                            <p class="text-363636 fw-normal text-justify text-indent-0 case-content-text">
+                            <p class="text-363636 fw-normal text-justify text-indent-0 case-content-text wow fadeInUp" data-wow-delay="0.8s">
                                 馬先生是一名汽車鈑金師傅，平時生活簡單，唯一的休閒就是玩手遊，偶爾小額課金，
                                 但都在可控範圍內。某天工作時不慎被幫浦機壓傷手指，導致兩根手指骨折，必須休養
                                 兩個月，暫時無法工作。由於過去會因家庭因素向朋友借款，不喜歡欠人情的感覺，因
@@ -279,7 +279,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 d-flex justify-content-center mt-4 wow fadeIn" data-wow-delay="0.5s">
+                <div class="col-12 d-flex justify-content-center mt-4 wow fadeInUp" data-wow-delay="0.8s">
                     <a href="{{route('cases')}}">
                         <div class="box-outline-main d-flex justify-content-between align-items-center wm-content">
                             <span class="me-1">更多案例</span>
@@ -297,7 +297,7 @@
             <div class="row g-0">
                 <div class="col-lg-7">
                     <div class="sub-section hp-konwledge">
-                        <div class="d-md-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="d-md-flex align-items-center mb-4 wow fadeInUp" data-wow-delay="0.7s">
                             <h5 class="text-262626 me-2 mb-md-0 mb-3 letter-spacing"><span
                                     class="text-de5511 fw-normal">Konwledge</span>當鋪知識分享</h5>
                             <a href="{{route('konwledge')}}">
@@ -309,10 +309,10 @@
                         </div>
                         <div class="row hp-konwledge-box bg-white align-items-center p-2 wow fadeIn" data-wow-delay="0.5s">
                             <div class="col-lg-5 p-0 pe-2 mb-lg-0 mb-3">
-                                <img src="{{asset('assets/images/00-hp/know_pic.jpg')}}" class="img-fluid hp-konwledge-img"
+                                <img src="{{asset('assets/images/00-hp/know_pic.jpg')}}" class="img-fluid hp-konwledge-img wow slideInLeft" data-wow-delay="0.8s"
                                     alt="">
                             </div>
-                            <div class="col-lg-7 p-0 ps-2">
+                            <div class="col-lg-7 p-0 ps-2 wow slideInRight" data-wow-delay="0.7s">
                                 <div class="d-flex justify-content-between">
                                     <p class="text-79787b type ps-2">知識分類</p>
                                     <p class="text-79787b date">2022-01-01</p>
@@ -334,7 +334,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="sub-section hp-faq">
-                        <div class="d-md-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="d-md-flex align-items-center mb-4 wow fadeInUp" data-wow-delay="0.7s">
                             <h5 class="text-262626 me-2 mb-md-0 mb-3 letter-spacing"><span
                                     class="text-de5511 fw-normal">Faq</span>常見問題</h5>
                             <a href="{{route('faq')}}">
@@ -345,7 +345,7 @@
                             </a>
                         </div>
 
-                        <div class="hp-faq-box bg-white align-items-center p-2 mb-2 h-100 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="hp-faq-box bg-white align-items-center p-2 mb-2 h-100 wow fadeInUp" data-wow-delay="0.6s">
                             <div class="hp-faq-item">
                                 <h6 class="text-de5511 hp-faq-title bg-fef7f0 px-2 py-1">Q1.當鋪借款需要準備什麼文件？</h6>
                                 <p class="text-363636 fw-normal text-justify text-indent-0 hp-faq-text px-2 mb-0">
@@ -355,7 +355,7 @@
                             </div>
                         </div>
 
-                        <div class="hp-faq-box bg-white align-items-center p-2 h-100 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="hp-faq-box bg-white align-items-center p-2 h-100 wow fadeInUp" data-wow-delay="0.6s">
                             <div class="hp-faq-item">
                                 <h6 class="text-de5511 hp-faq-title bg-fef7f0 px-2 py-1">Q2.典當借款的利息如何計算？</h6>
                                 <p class="text-363636 fw-normal text-justify text-indent-0 hp-faq-text px-2 mb-0">
@@ -371,7 +371,7 @@
     </div>
 
     <div class="container-fluid px-0 mx-0">
-        <div class="map wow fadeIn" data-wow-delay="0.5s">
+        <div class="map wow zoomIn" data-wow-delay="1s">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.4795322706527!2d121.0183297!3d24.8474666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346837e200fac1fb%3A0xd00aa6d3ff3dc076!2z5rC46LGQ55W26IiWL-aWsOerueeVtumLquaOqOiWpi_mlrDnq7nmqZ_ou4rlgJ_mrL4v5paw56u55rG96LuK5YCf5qy-L-aWsOeruem7g-mHkeWFuOeVti_nq7nljJfnlbbpi6ov56u55YyX5omL5qmf5YCf5qy-L-erueWMl-apn-i7iuWAn-asvi_mlrDnq7nlhY3nlZnou4rlgJ_mrL4!5e0!3m2!1szh-TW!2stw!4v1745817079810!5m2!1szh-TW!2stw" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
@@ -379,7 +379,7 @@
     <div class="container-fluid py-5 hp-att-section">
         <div class="container">
             <div class="row justify-content-center align-items-center">
-                <div class="col-lg-8 justify-content-center align-items-center mb-lg-0 mb-3 wow fadeIn" data-wow-delay="0.5s">
+                <div class="col-lg-8 justify-content-center align-items-center mb-lg-0 mb-3 wow slideInLeft" data-wow-delay="0.7s">
                     <div class="d-lg-flex justify-content-center align-items-center text-center">
                         <img src="{{asset('assets/images/00-hp/att_icon.png')}}" class="img-fluid" alt="">
                         <div class="att-content d-flex flex-column">
@@ -392,7 +392,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 justify-content-center align-items-center mb-lg-0 mb-3 wow fadeIn" data-wow-delay="0.5s">
+                <div class="col-lg-4 justify-content-center align-items-center mb-lg-0 mb-3 wow slideInRight" data-wow-delay="0.8s">
                     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2F61573949573113%2F&tabs=timeline&width=340&height=170&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=true&appId" width="340" height="170" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                 </div>
             </div>

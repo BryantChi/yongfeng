@@ -44,6 +44,14 @@
                 adHeader.css('top', '-' + (height / 2) + 'px');
             }
         }).trigger('resize');
+
+        $(window).on('scroll', function() {
+            if ($(this).scrollTop() > 200 && $(window).width() < 992) {
+                $('#header').addClass('fixed-top');
+            } else {
+                $('#header').removeClass('fixed-top');
+            }
+        });
     })
 
 })(jQuery);

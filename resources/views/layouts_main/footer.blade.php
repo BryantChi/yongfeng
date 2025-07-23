@@ -3,7 +3,7 @@
 <div class="container-fluid bg-de5511 footer wow fadeIn" data-wow-delay="0.1s">
     <div class="container pt-5 pb-3 border-bottom">
         <div class="row g-5">
-            <div class="col-lg-auto">
+            <div class="col-lg-auto wow fadeInUp" data-wow-delay="0.5s">
                 <div class="d-lg-flex align-items-end mb-4 pb-2 w-fit">
                     <img src="{{asset('assets/images/00-hp/footer_logo.svg')}}" class="img-fluid footer-logo me-2" alt="">
                     <p class="text-fef7f0 text-nowrap2 mb-0 mt-lg-0 mt-2"><span class="text-ffd2a5">》</span>竹北最推薦當鋪 10分鐘快速借款免留車
@@ -42,7 +42,7 @@
                 </div>
 
             </div>
-            <div class="col-lg-auto">
+            <div class="col-lg-auto wow fadeInUp" data-wow-delay="0.6s">
                 <p class="text-ffd2a5 mb-2 w-fit">
                     <img src="{{asset('assets/images/00-hp/footer_icon1.png')}}" class="img-fluid" alt="">
                     服務項目
@@ -56,7 +56,7 @@
                     <li><a href="{{ route('bontique') }}" class="text-white">精品名錶典當借款</a></li>
                 </ul>
             </div>
-            <div class="col-lg">
+            <div class="col-lg wow fadeInUp" data-wow-delay="0.7s">
                 <p class="text-ffd2a5 mb-2 w-fit">
                     <img src="{{asset('assets/images/00-hp/footer_icon2.png')}}" class="img-fluid" alt="">
                     借款須知

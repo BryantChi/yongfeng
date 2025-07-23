@@ -1,5 +1,5 @@
 <!-- Navbar Start -->
-<div class="container-fluid bg-white sticky-top pt-lg-3 pt-3 pb-2 site-navbar" id="header">
+<div class="container-fluid bg-white sticky-top2 pt-lg-3 pt-3 pb-2 site-navbar wow fadeInDown" data-wow-delay="0.1s" id="header">
     <div class="container">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0">
             <a href="{{ route('index') }}" class="navbar-brand">
@@ -43,3 +43,9 @@
     </div>
 </div>
 <!-- Navbar End -->
+
+@push('page_scripts')
+    <script>
+
+    </script>
+@endpush
